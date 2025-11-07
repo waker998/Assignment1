@@ -5,4 +5,5 @@
     <string name="events_desc">Events icon for campus events</string>
     <string name="clubs_desc">Clubs icon for campus clubs</string>
     <string name="support_desc">Support icon for campus support services</string>
+    <string name="detail_image_desc">Detail page image</string>
 </resources>
