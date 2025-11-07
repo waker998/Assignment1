@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application6</string>
+    <string name="app_title">Welcome to University of Waikato CampusLife - Your Pocket Guide to</string>
+    <string name="facilities_desc">Facilities icon for campus facilities</string>
+    <string name="events_desc">Events icon for campus events</string>
+    <string name="clubs_desc">Clubs icon for campus clubs</string>
+    <string name="support_desc">Support icon for campus support services</string>
+</resources>
