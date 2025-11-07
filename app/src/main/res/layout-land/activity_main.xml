@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <!-- Facilities 按钮（第一行第一列） -->
+    <ImageButton
+        android:id="@+id/ib_facilities"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/img_btn_facilities"
+        android:contentDescription="@string/facilities_desc"
+        android:background="@drawable/button_selector"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ib_events"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <!-- Events 按钮（第一行第二列） -->
+    <ImageButton
+        android:id="@+id/ib_events"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/img_btn_events"
+        android:contentDescription="@string/events_desc"
+        android:background="@drawable/button_selector"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintStart_toEndOf="@id/ib_facilities"
+        app:layout_constraintEnd_toStartOf="@id/ib_clubs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <!-- Clubs 按钮（第二行第一列） -->
+    <ImageButton
+        android:id="@+id/ib_clubs"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/img_btn_clubs"
+        android:contentDescription="@string/clubs_desc"
+        android:background="@drawable/button_selector"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintStart_toEndOf="@id/ib_events"
+        app:layout_constraintEnd_toStartOf="@id/ib_support"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <!-- Support 按钮（第二行第二列） -->
+    <ImageButton
+        android:id="@+id/ib_support"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/img_btn_support"
+        android:contentDescription="@string/support_desc"
+        android:background="@drawable/button_selector"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintStart_toEndOf="@id/ib_clubs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
