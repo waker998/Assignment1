@@ -1,5 +1,6 @@
 package com.example.myapplication6;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -23,23 +24,31 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // Facilities 按钮点击事件
     public void onFacilitiesClick(View view) {
         Toast.makeText(this, "Facilities clicked", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra("ITEM_ID", 0);
+        startActivity(intent);
     }
 
-    // Events 按钮点击事件
     public void onEventsClick(View view) {
         Toast.makeText(this, "Events clicked", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra("ITEM_ID", 1);
+        startActivity(intent);
     }
 
-    // Clubs 按钮点击事件
     public void onClubsClick(View view) {
         Toast.makeText(this, "Clubs clicked", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra("ITEM_ID", 2);
+        startActivity(intent);
     }
 
-    // Support 按钮点击事件
     public void onSupportClick(View view) {
         Toast.makeText(this, "Support clicked", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra("ITEM_ID", 3);
+        startActivity(intent);
     }
 }
