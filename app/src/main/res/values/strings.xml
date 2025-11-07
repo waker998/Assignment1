@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application6</string>
+    <string name="app_name">CampusLife</string>
     <string name="app_title">Welcome to University of Waikato CampusLife - Your Pocket Guide to</string>
     <string name="facilities_desc">Facilities icon for campus facilities</string>
     <string name="events_desc">Events icon for campus events</string>

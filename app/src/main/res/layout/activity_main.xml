@@ -30,13 +30,13 @@
         android:layout_height="0dp"
         android:src="@drawable/img_btn_facilities"
         android:contentDescription="@string/facilities_desc"
-    android:scaleType="centerInside"
-    android:background="@android:color/black"
-    app:layout_constraintTop_toBottomOf="@id/tv_title"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toStartOf="@id/ib_events"
-    app:layout_constraintBottom_toTopOf="@id/ib_clubs"
-    app:layout_constraintDimensionRatio="1:1" />
+        android:background="@drawable/button_selector"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ib_events"
+        app:layout_constraintBottom_toTopOf="@id/ib_clubs"
+        app:layout_constraintDimensionRatio="1:1" />
 
     <!-- Events 按钮（第一行第二列） -->
     <ImageButton
@@ -45,13 +45,13 @@
         android:layout_height="0dp"
         android:src="@drawable/img_btn_events"
         android:contentDescription="@string/events_desc"
-    android:scaleType="centerInside"
-    android:background="@android:color/black"
-    app:layout_constraintTop_toBottomOf="@id/tv_title"
-    app:layout_constraintStart_toEndOf="@id/ib_facilities"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintBottom_toTopOf="@id/ib_support"
-    app:layout_constraintDimensionRatio="1:1" />
+        android:background="@drawable/button_selector"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintStart_toEndOf="@id/ib_facilities"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ib_support"
+        app:layout_constraintDimensionRatio="1:1" />
 
     <!-- Clubs 按钮（第二行第一列） -->
     <ImageButton
@@ -60,13 +60,13 @@
         android:layout_height="0dp"
         android:src="@drawable/img_btn_clubs"
         android:contentDescription="@string/clubs_desc"
-    android:scaleType="centerInside"
-    android:background="@android:color/black"
-    app:layout_constraintTop_toBottomOf="@id/ib_facilities"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toStartOf="@id/ib_support"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintDimensionRatio="1:1" />
+        android:background="@drawable/button_selector"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/ib_facilities"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ib_support"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1" />
 
     <!-- Support 按钮（第二行第二列） -->
     <ImageButton
@@ -75,12 +75,12 @@
         android:layout_height="0dp"
         android:src="@drawable/img_btn_support"
         android:contentDescription="@string/support_desc"
-    android:scaleType="centerInside"
-    android:background="@android:color/black"
-    app:layout_constraintTop_toBottomOf="@id/ib_events"
-    app:layout_constraintStart_toEndOf="@id/ib_clubs"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintDimensionRatio="1:1" />
+        android:background="@drawable/button_selector"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@id/ib_events"
+        app:layout_constraintStart_toEndOf="@id/ib_clubs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
